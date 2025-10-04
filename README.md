@@ -1,39 +1,68 @@
-🗓️ Daily Planning App
+🗓️ Daily Planning App 💡
 
-Daily Planning is an Android app that helps users create daily plans using AI. Enter your schedule, and the app provides optimized planning in a chat-style interface.
+Daily Planning is an Android app that helps users create optimized daily schedules using AI. Enter your tasks or plans, and the app responds with structured guidance in a chat-style interface built with Jetpack Compose and MVVM architecture.
+
+
+---
+
 
 📌 Features
 
-Chat-style interface for sending plans and receiving AI-generated responses
+Chat-style interface for sending tasks and receiving AI-generated suggestions
 
-Auto-scrolling conversation list
+Auto-scroll for conversation messages
 
-Gradient Send button
+Gradient “Send” button for messages
 
-Error handling with Toast messages
+Error handling with Toast notifications
 
-MVVM architecture with Koin
+Live updates of messages
 
-Jetpack Compose + Material 3
+MVVM architecture with CoKoin for dependency injection and navigation
 
-API communication via Retrofit + OkHttp
+Built with Jetpack Compose and Material 3
 
-Kotlin Coroutines for asynchronous operations
+Asynchronous API calls with Kotlin Coroutines
 
-🛠️ Tech Stack
 
-Language: Kotlin
+---
 
-UI: Jetpack Compose, Material 3
 
-DI & Navigation: Cokoin (Koin for Compose)
+🛠 Technologies
 
-Networking: Retrofit + OkHttp
+Kotlin with Jetpack Compose
 
-Architecture: MVVM (ViewModel + Repository)
+Retrofit + OkHttp for API calls
 
-Concurrency: Kotlin Coroutines
+CoKoin for DI and navigation
 
-Testing: JUnit + Espresso
+Kotlin Coroutines for async operations
 
-Gradle Plugin: 8.10.1
+Material 3 for UI components
+
+MVVM Architecture (ViewModel + Repository)
+
+Android Gradle Plugin 8.x
+
+
+---
+
+
+🏗 Architecture
+
+UI: Chat interface with Compose
+
+ViewModel: Handles message state and API calls
+
+Repository: Fetches AI-generated plans from API
+
+Navigation: Managed with KoinNavHost
+
+Error Handling: Shows Toast messages on API/network failure
+
+
+---
+
+
+📸 Screenshot
+<p align="center"> <img src="path/to/your-screenshot.png" width="280" alt="Home Screen"/> </p>
