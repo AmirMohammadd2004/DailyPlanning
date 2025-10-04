@@ -65,4 +65,4 @@ Error Handling: Shows Toast messages on API/network failure
 
 
 📸 Screenshot
-<p align="center"> <img src="[path/to/your-screenshot.png](https://github.com/user-attachments/assets/654b6ea4-561d-423b-8257-b8be68a90ddd)" width="280" alt="Home Screen"/> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/654b6ea4-561d-423b-8257-b8be68a90ddd" width="280" alt="Home Screen"/> </p>
